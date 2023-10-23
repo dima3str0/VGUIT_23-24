@@ -227,7 +227,7 @@ for i in range(len(m)):
 cr_arifm /= len(m)
 
 for i in range(len(m)):
-    if m[i] == '0':
+    if m[i] == 0:
         m[i] = cr_arifm
 
 print('Полученныый массив:\n',m)
