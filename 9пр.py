@@ -12,18 +12,12 @@ print((x**n)/(func(n)))
 # Блок Б Задание 3
 
 def f():
-    a = int(input('Введите число: '))
-    if a == 0:
-        exit()
-    else:
-        print(a)
-        f_1()
-
-def f_1():
-    a = int(input('Введите число: '))
-    if a == 0:
-        exit()
-    else:f()
-
+    n = int(input('Введите длину строки: '))
+    for i in range(n):
+        a = int(input('Введите число: '))
+        if (i+1) % 2 != 0:
+            print(a)
+        if a == 0:
+            break
 
 f()
