@@ -1,0 +1,8 @@
+{
+   "company": null,
+   "created_at": "2014-07-11T17:01:00Z",
+   "email": null,
+   "id": 8137302,
+   "name": "Victor Salazar",
+   "url": "https://api.github.com/users/VScode"
+}
